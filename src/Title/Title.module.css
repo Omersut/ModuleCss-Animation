@@ -1,0 +1,40 @@
+.Title{
+    background: transparent url(../Images/ufo.png) no-repeat center center;
+    background-size: 30px;
+    width: 160px;
+    height: 160px;
+    position: fixed;
+    z-index: -1;
+    animation: title 10s infinite;
+}
+@keyframes title {
+
+    0%{
+        left: 50%;
+        top: 10%;
+    }
+    25%{
+        background-size: 20px;
+        transform: rotate(1000deg);
+        left: 30%;
+        top:40%;
+    }
+    50%{
+        background-size: 40px;
+        transform: rotate(50deg);
+        transform: skewY(10deg);
+        left: 6%;
+        top: 20%;
+    }
+    75%{
+        background-size: 20px;
+        transform: rotate(300deg);
+        left: 70%;
+        top: 40%;
+    }
+    100%{ 
+        left: 50%;
+        top: 10%;
+    }
+
+}

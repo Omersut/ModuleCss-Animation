@@ -25,6 +25,9 @@
 .flash{
     animation-name: flash;
 }
+.badge{
+    margin-bottom: 0px;
+}
 @keyframes flash {
     from,
     50%,
