@@ -1,11 +1,20 @@
-.Title{
+.ufo1{
     background: transparent url(../Images/ufo.png) no-repeat center center;
-    background-size: 30px;
+    background-size: 50px;
     width: 160px;
     height: 160px;
     position: fixed;
-    z-index: -1;
+    z-index: -2;
     animation: title 10s infinite;
+}
+.ufo2{
+    background: transparent url(../Images/ufo2.png) no-repeat center center;
+    background-size: 50px;
+    width: 160px;
+    height: 160px;
+    position: fixed;
+    z-index: -2;
+    animation: title 10.5s infinite;
 }
 @keyframes title {
 
@@ -13,14 +22,14 @@
         left: 50%;
         top: 10%;
     }
-    25%{
-        background-size: 20px;
+    20%{
+        background-size: 40px;
         transform: rotate(1000deg);
         left: 30%;
         top:40%;
     }
     50%{
-        background-size: 40px;
+        background-size: 70px;
         transform: rotate(50deg);
         transform: skewY(10deg);
         left: 6%;

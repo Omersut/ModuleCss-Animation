@@ -24,7 +24,7 @@ class App extends React.Component {
       <div className={styles.App}>
       <Title/>
       <Background/>
-      <Grid facts={this.state.facts} updateClicked={this.updateClicked.bind(this)} />
+      {/* <Grid facts={this.state.facts} updateClicked={this.updateClicked.bind(this)} /> */}
       <Rocket/>
       <Smoke/>
       </div>
