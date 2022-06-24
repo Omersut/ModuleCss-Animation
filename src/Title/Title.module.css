@@ -1,20 +1,23 @@
 .ufo1{
-    background: transparent url(../Images/ufo.png) no-repeat center center;
+    background: transparent url(../Images/omitrix.webp) no-repeat center center;
     background-size: 50px;
-    width: 160px;
-    height: 160px;
+    width: 80px;
+    height: 80px;
     position: fixed;
     z-index: -2;
     animation: title 10s infinite;
+    box-shadow: -33px 0px 159px red;
+    border-radius: 45%;
+   
 }
 .ufo2{
     background: transparent url(../Images/ufo2.png) no-repeat center center;
     background-size: 50px;
-    width: 160px;
-    height: 160px;
+    width: 80px;
+    height: 80px;
     position: fixed;
     z-index: -2;
-    animation: title 10.5s infinite;
+    animation: title 11s infinite;
 }
 @keyframes title {
 
